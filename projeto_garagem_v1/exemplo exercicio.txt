@@ -1,0 +1,14 @@
+- Caso o sensor ficar >= 8 
+	- Led verde ligado 
+- Caso o sensor ficar < 8 e > 4
+	- Led amarelo ligado
+	- Buzzer tocando um pouco rapido
+- Caso o sensor ficar < 4 
+	- Led vermelho ligado
+	- Buzzer tocando muito rapido
+
+- Apertar o botao para abrir o servo motor , apertar novamente fecha o servo motor
+
+- Conseguir abrir e fechar o servo motor também via celular atraves do mqtt 
+
+- Ficar mandando informações do sensor tanto na serial console quanto no broker MQTT
